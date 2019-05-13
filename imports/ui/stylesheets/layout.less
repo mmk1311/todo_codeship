@@ -5,11 +5,14 @@
 
 body {
   .position(absolute, 0, 0, 0, 0);
-  background-color: #315481;
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-color: #FF5A5F;
+  foreground-color: #000000;
+  background-image: linear-gradient(to bottom, #FF5A5F, #FF5A5F 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.page.lists-show nav{ background: #FF5A5F !important; }
 
 #container {
   .position(absolute, 0, 0, 0, 0);
@@ -29,7 +32,7 @@ body {
 }
 
 #menu {
-  .position(absolute, 0, 0, 0, 0, @menu-width);
+  .position(absolute, 10, 0, 0, 0, @menu-width);
 }
 
 #content-container {
